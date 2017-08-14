@@ -1,30 +1,33 @@
-<body class="container-fluid" style="background-color:#4169E1;">
-  <div class="jumbotron text-center" style="font-family:roboto; margin-top:10px; box-shadow: 0 0 5px;">
-    <h1><strong>Weather Today</strong></h1>
-  </div>
-  <div class="container text-center" style="padding:0 50px 0 50px">
-    <div class="row " style="font-size:24px;">
-      <div class="col-md-4">
-        <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
-          <p class="location"></p>
+<body style="background-color:#4169E1;">
+  <div class="container-fluid">
+    <div class="jumbotron text-center" style="font-family:roboto; margin-top:10px; box-shadow: 0 0 5px;">
+      <h1><strong>Weather Today</strong></h1>
+    </div>
+    <div class="container text-center" style="padding:0 50px 0 50px">
+      <div class="row " style="font-size:24px;">
+        <div class="col-md-4">
+          <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
+            <p class="location"></p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
+            <p class="conditions"></p>
+            <img class="icon" src="" />
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
+            <p class="temperature" id="F" style="display:none;"></p>
+            <p class="temperature" id="C"></p>
+            <p class="humidity"></p>
+            <button id="fc" class="btn btn-primary btn-responsive">F/C</button>
+          </div>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
-          <p class="conditions"></p>
-          <img class="icon" src="" />
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
-          <p class="temperature"></p>
-          <p class="humidity"></p>
-          <button id="fc" class="btn btn-primary btn-responsive">F/C</button>
-        </div>
     </div>
-    </div>
+
   </div>
-
 </body>
