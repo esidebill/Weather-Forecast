@@ -1,5 +1,19 @@
-
 #datacell {
   width: auto;
   height: 200px;
+}
+
+.jumbotron {
+  opacity: 0.7;
+}
+
+.current-weather {
+  opacity: 0.7;
+}
+
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
