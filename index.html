@@ -1,26 +1,26 @@
 <body>
 
-  <div class="container">
-    <div class="jumbotron text-center" style="font-family:roboto; margin-top:10px; box-shadow: 0 0 5px;">
+ 
+    <div class="jumbotron jumbotron-fluid text-center">
       <h1><strong>Weather Today</strong></h1>
     </div>
-    <div class="container text-center current-weather" style="padding:0 50px 0 50px">
-      <div class="row " style="font-size:24px;">
+    <div class="container text-center current-weather">
+      <div class="row weather_cards">
         <div class="col-md-4">
-          <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
+          <div id="datacell" class="well weather_card">
             <p class="location"></p>
           </div>
         </div>
 
         <div class="col-md-4">
-          <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
+          <div id="datacell" class="well weather_card">
             <p class="conditions"></p>
-            <img class="icon" src="" style="width:150px; margin-top:-20px;" />
+            <img class="icon" src="" />
           </div>
         </div>
 
         <div class="col-md-4">
-          <div id="datacell" class="well" style="box-shadow: 0 0 5px;">
+          <div id="datacell" class="well weather_card">
             <p class="temperature" id="F" style="display:none;"></p>
             <p class="temperature" id="C"></p>
             <p class="humidity"></p>
